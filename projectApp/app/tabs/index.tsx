@@ -10,7 +10,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { listarOcorrencias, criarOcorrencia } from '../../services/api';
 import { useRouter } from 'expo-router';
 import api from '../../services/api';
-import { BASE_URL } from '@env';
+import { BASE_URL } from '../../services/config';
 
 const ICONES: Record<string, string> = {
     barranco: '⛰️', lixo: '🗑️', entulho: '🚧',

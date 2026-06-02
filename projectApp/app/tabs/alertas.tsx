@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import { View, Text, FlatList, Image, StyleSheet, RefreshControl, ListRenderItemInfo } from 'react-native';
 import { useFocusEffect } from 'expo-router';
 import { listarOcorrencias } from '../../services/api';
-import { BASE_URL } from '@env';
+import { BASE_URL } from '../../services/config';
 
 const COR_RISCO: Record<string, string> = {
     baixo: '#4CAF50', moderado: '#FF9800', alto: '#F44336'
